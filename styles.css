@@ -11,3 +11,22 @@
     --Very-Dark-Cyan: hsl(192, 100%, 9%);
     --Very-Pale-Blue: hsl(207, 100%, 98%);
 }
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    border:  1px solid red;
+}
+
+.header button{
+    border: 1px solid var(--Pink);
+    border-radius: 50px;
+    width: 150px;
+    padding: 10px;
+    color: var(--Pink);
+    background-color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
