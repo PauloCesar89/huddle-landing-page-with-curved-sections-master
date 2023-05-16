@@ -30,3 +30,9 @@
     font-size: 15px;
     cursor: pointer;
 }
+
+.description{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
