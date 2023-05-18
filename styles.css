@@ -65,3 +65,44 @@
     border: none;
     cursor: pointer;
 }
+
+.mockups{
+    background-image: url(/images/screen-mockups.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    width: 100%;
+    height: 850px;
+    margin-bottom: 80px;
+    /* border:  1px solid red; */
+}
+
+.icon1 h2::before{
+    display: flex;
+    content: url(/images/icon-communities.svg);
+    height: 75px;
+    /* border:  1px solid red; */
+}
+
+.icon2 h2::before{
+    display: flex;
+    content: url(/images/icon-messages.svg);
+    height: 75px;
+    /* border:  1px solid red; */
+}
+
+.communities{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.communities .number h2{
+    font-size: 70px;
+    margin-bottom: 15px;
+    /* border:  1px solid red; */
+}
+
+.communities .number p{
+    text-align: center;
+    color: hsl(0, 3%, 68%);
+}
