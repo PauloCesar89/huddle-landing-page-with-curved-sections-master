@@ -108,9 +108,10 @@
     margin-bottom: 80px;
 }
 
+/* primeira parte */
+
 .bg-top{
     background-image: url(/images/bg-section-top-desktop-1.svg);
-    /* border:  1px solid red; */
     background-repeat: no-repeat;
     height: 150px;
 }
@@ -119,10 +120,9 @@
     background-image: url(/images/bg-section-bottom-desktop-1.svg);
     background-repeat: no-repeat;
     height: 200px;
-    /* border:  1px solid red; */
 }
 
-.conteudo{
+.together{
     height: 400px;
     width: 100%;
     background-color: rgba(163, 216, 242, 0.096); /*cor do centro das seções */
@@ -130,23 +130,67 @@
     justify-content: space-around;
 }
 
-.conteudo .text1{
+.together .text1{
     display: flex;
     align-items: left;
     flex-direction: column;
     justify-content: center;
     width: 40%;
-    /* border:  1px solid rgb(15, 17, 133); */
 }
 
-.conteudo .text1 p{
+.together .text1 p{
     width: 500px;
     margin-top: 20px;
     color: var(--Very-Dark-Cyan);
 }
 
-.conteudo .text1 h1{
+.together .text1 h1{
     color: var(--Very-Dark-Cyan);
     font-size: 40px;
     font-weight: 700;
+}
+
+/* segunda parte */
+
+.conversations{
+    margin-top: 50px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.conversations .text2{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.conversations .text2 p{
+    width: 500px;
+    margin-top: 20px;
+    color: var(--Very-Dark-Cyan);
+}
+
+.conversations .text2 h1{
+    color: var(--Very-Dark-Cyan);
+    font-size: 40px;
+    font-weight: 700;
+} 
+
+/* terceira parte */
+
+.bg-top2{
+    background-image: url(/images/bg-section-top-desktop-2.svg);
+    background-repeat: no-repeat;
+    height: 150px;
+    margin-top: 100px;
+}
+
+.bg-botton2{
+    background-image: url(/images/bg-section-bottom-desktop-2.svg);
+    background-repeat: no-repeat;
+    height: 200px;
 }
