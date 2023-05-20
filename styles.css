@@ -44,8 +44,6 @@
 }
 
 .description p{
-    /* border:  1px solid red; */
-    /* font-size: 15px; */
     color: var(--Very-Dark-Cyan);
     text-align: center;
     width: 35%;
@@ -193,4 +191,16 @@
     background-image: url(/images/bg-section-bottom-desktop-2.svg);
     background-repeat: no-repeat;
     height: 200px;
+}
+
+.description h2{
+    margin: 50px;
+    color: var(--Very-Dark-Cyan);
+    font-size: 30px;
+}
+
+.bg-footer{
+    background-image: url(/images/bg-footer-top-mobile.svg);
+    background-repeat: no-repeat;
+    height: 150px;
 }
