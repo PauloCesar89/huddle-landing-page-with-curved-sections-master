@@ -105,18 +105,48 @@
 .communities .number p{
     text-align: center;
     color: hsl(0, 3%, 68%);
+    margin-bottom: 80px;
 }
 
 .bg-top{
     background-image: url(/images/bg-section-top-desktop-1.svg);
     /* border:  1px solid red; */
     background-repeat: no-repeat;
-    height: 200px;
+    height: 150px;
 }
 
-.bg-top img::after{
+.bg-botton{
     background-image: url(/images/bg-section-bottom-desktop-1.svg);
     background-repeat: no-repeat;
-    height: 600px;
-    border:  1px solid red;
+    height: 200px;
+    /* border:  1px solid red; */
+}
+
+.conteudo{
+    height: 400px;
+    width: 100%;
+    background-color: rgba(163, 216, 242, 0.096); /*cor do centro das seções */
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudo .text1{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    /* border:  1px solid rgb(15, 17, 133); */
+}
+
+.conteudo .text1 p{
+    width: 500px;
+    margin-top: 20px;
+    color: var(--Very-Dark-Cyan);
+}
+
+.conteudo .text1 h1{
+    color: var(--Very-Dark-Cyan);
+    font-size: 40px;
+    font-weight: 700;
 }
