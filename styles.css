@@ -199,8 +199,29 @@
     font-size: 30px;
 }
 
-.bg-footer{
-    background-image: url(/images/bg-footer-top-mobile.svg);
-    background-repeat: no-repeat;
-    height: 150px;
+footer{
+    color: var(--Very-Pale-Blue);
+}
+
+.bg-footer img{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.inf-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--Very-Dark-Cyan);
+    height: 500px;
+}
+
+.inf-footer .inf-footer1{
+    border: 1px solid red;
+    width: 30%;
+}
+
+.inf-footer .inf-footer2{
+    border: 1px solid red;
+    width: 30%;
 }
