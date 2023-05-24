@@ -217,11 +217,24 @@ footer{
 }
 
 .inf-footer .inf-footer1{
-    border: 1px solid red;
+    border: 1px solid rgb(88, 38, 146);
     width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .inf-footer .inf-footer2{
     border: 1px solid red;
     width: 30%;
+}
+
+.inf-footer1 span img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border: 1px solid red;
 }
