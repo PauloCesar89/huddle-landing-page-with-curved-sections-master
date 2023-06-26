@@ -199,7 +199,7 @@
     font-size: 30px;
 }
 
-footer{
+/* footer{
     color: var(--Very-Pale-Blue);
 }
 
@@ -226,16 +226,16 @@ footer{
 }
 
 .inf-footer .inf-footer2{
-    /* border: 1px solid red; */
-    width: 30%;
+    /* border: 1px solid red;
+    width: 20%;
 }
 
 .inf-footer1 span img{
     display: flex;
-    /* align-items: center; */
+    /* align-items: center; 
     justify-content: center;
     height: 30px;
     width: 30px;
-    /* border: 1px solid red; */
-}
+    /* border: 1px solid red;
+} */
 
